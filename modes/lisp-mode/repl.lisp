@@ -222,6 +222,7 @@
 
 (define-command start-lisp-repl () ()
   (check-connection)
+  (pdebug 10)
   (lem.listener-mode:listener-start "*lisp-repl*" 'lisp-repl-mode))
 
 (define-command lisp-switch-to-repl-buffer () ()
