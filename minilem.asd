@@ -12,7 +12,7 @@
 (defsystem "minilem"
   :version "1.6"
   :license "MIT"
-  :description "A bare-bones emacs-like lisp editor"
+  :description "Minimal version of lem, emacs-like editor. A minimal self-modifying Common Lisp editor"
   :author "cxxxr, snmsts, fukamachi, gos-k, Hamayama, jessymilare, t-cool, jessymilare, t-cool, stacksmith, t-sin, nz-tcoder, myaosato, svetlyak40wt, kenoss, picospuch, koji-kojiro, asood123, KeenS, gmasching, g000001, talenbartlett, masatoi, i-makinori, agmm, Hextstream, FemtoEmacs, Fedreg"
   :depends-on
   (
