@@ -1,4 +1,4 @@
-# minilem
+# minilem is the minimal Common Lisp editor for Common Lisp
 Minilem is a bare-bones emacs-like lisp editor written in Common Lisp. It is a fork of [lem](https://github.com/cxxxr/lem) with an emphasis on minimalism, ease of install, and being a lisp editor.
 
 Everything has been removed except:
