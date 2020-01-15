@@ -13,7 +13,7 @@
   :version "1.6"
   :license "MIT"
   :description "Minimal version of lem, emacs-like editor. A minimal self-modifying Common Lisp editor"
-  :author "Author:cxxxr Contributors:snmsts, fukamachi, gos-k, Hamayama, jessymilare, t-cool, jessymilare, t-cool, stacksmith, t-sin, nz-tcoder, myaosato, svetlyak40wt, kenoss, picospuch, koji-kojiro, asood123, KeenS, gmasching, g000001, talenbartlett, masatoi, i-makinori, agmm, Hextstream, FemtoEmacs, Fedreg"
+  :author "Author:cxxxr Contributors:snmsts, fukamachi, gos-k, Hamayama, jessymilare, t-cool, jessymilare, t-cool, stacksmith, t-sin, nz-tcoder, myaosato, svetlyak40wt, kenoss, picospuch, koji-kojiro, asood123, KeenS, gmasching, g000001, talenbartlett, masatoi, i-makinori, agmm, Hexstream, FemtoEmacs, Fedreg"
   :depends-on
   (
    ;;<LEM-BASE>
