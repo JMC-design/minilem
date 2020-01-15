@@ -3,7 +3,7 @@
 ;;;don't edit above
 
 (defmacro def-8bit-encoding (name)
-  `(let* ((path (asdf:system-relative-pathname :lem-encodings ,(format nil "~(~A~).table" name)))
+  `(let* ((path (minilem-shim:asdf-system-relative-pathname-lem-encodings ,(format nil "~(~A~).table" name)))
           (data (lem-encodings/table:read-table path))
           (from (loop with result = (make-array 256)
                        for line in data                       

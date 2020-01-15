@@ -3,7 +3,7 @@
 ;;;don't edit above
 (defun e+ (c) (+ #xe000 c))
 
-(let* ((path (asdf:system-relative-pathname :lem-encodings "euc-jp.table"))
+(let* ((path (minilem-shim:asdf-system-relative-pathname-lem-encodings "euc-jp.table"))
        (data (lem-encodings/table:read-table path)))
   (defvar *from* (loop with result = (make-hash-table)
                        for line in data                       
