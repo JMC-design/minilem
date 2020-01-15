@@ -607,6 +607,7 @@
          (message "Loaded ~A." name))
         (t (message "Can't find Library ~A." name))))
 
+#+nil
 (defun get-git-hash (&optional (system :lem))
   (let* ((component (asdf:find-system system))
          (path (when component
@@ -621,7 +622,8 @@
            (uiop:run-program "git rev-parse --short HEAD"
                              :output stream)))))))
 
-(defvar *git-revision* (get-git-hash :lem))
+(defvar *git-revision* nil ;;(get-git-hash :lem)
+  )
 
 (define-command lem-version (&optional name) ("p")
   (let ((version
